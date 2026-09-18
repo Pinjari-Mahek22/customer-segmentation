@@ -30,14 +30,5 @@ I built this project to segment customers based on their demographics and spendi
 - **Cluster 0** (older, higher income, lower spending) — good target for premium offers to increase their spend.
 - **Cluster 2** (largest group, mid income, moderate-low spending) — the mainstream segment, best suited for value and loyalty campaigns.
 
-## Files in This Repository
-- `customer_segmentation.py` — the full code (data loading, EDA, preprocessing, clustering, visualization)
-- `customers_segmented.csv` — final dataset with each customer's assigned cluster
-- `cluster_profiles.csv` — average characteristics of each cluster
-- `eda_distributions.png`, `eda_gender.png` — exploratory data analysis plots
-- `elbow_silhouette.png` — plots used to choose the number of clusters
-- `segments_income_spending.png`, `segments_age_spending.png`, `segments_pca.png` — visualizations of the final customer segments
-- `cluster_characteristics.png` — comparison of average values across clusters
-
 ## What I Learned
 This project helped me understand how unsupervised learning (K-Means) can be used to find hidden patterns in customer data, how to decide the right number of clusters using the elbow method and silhouette score, and how to translate clustering output into actual business insights.
